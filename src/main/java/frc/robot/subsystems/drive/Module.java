@@ -191,7 +191,7 @@ public class Module {
   public SwerveModulePosition[] getOdometryPositions() {
     return odometryPositions;
   }
-  // yay
+  
   /** Returns the timestamps of the samples received this cycle. */
   public double[] getOdometryTimestamps() {
     return inputs.odometryTimestamps;
