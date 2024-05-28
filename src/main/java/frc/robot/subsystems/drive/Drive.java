@@ -178,8 +178,6 @@ public class Drive extends SubsystemBase {
 
       // Apply update
       poseEstimator.updateWithTime(sampleTimestamps[i], rawGyroRotation, modulePositions);
-
-      Logger.recordOutput("estimation", poseEstimator.getEstimatedPosition());
     }
   }
 
